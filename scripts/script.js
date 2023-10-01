@@ -97,7 +97,12 @@ if (Sure=="Y"){
         container.innerHTML = '';  
         this.tasks = [];
 }
-    }  
+    } else{
+        var container = document.getElementById('cont');
+        container.innerHTML = '';  
+        this.tasks = [];
+
+    } 
     }
     
 }
